@@ -18,6 +18,10 @@ User can get instant feedback on correctness and a total scroe too!
 - **Styling:** CSS3 (custom styles + media queries for responsiveness)  
 - **Data Source:** Local static data file (`data.js`)  
 
+---
+## 🔗 Deployed on Vercel
+🖇️[Test how well you know me here!](https://about-me-quiz-iwxlw5gos-excelyynxs-projects.vercel.app/)
+
 --- 
 ## 🗣️ Shoutout to GreatStack
 📹[How to Make a Quiz App in React JS](https://share.google/WoymAYtVJuPnxZKRm)

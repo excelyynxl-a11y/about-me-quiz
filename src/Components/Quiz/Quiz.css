@@ -32,6 +32,13 @@
     margin-bottom: 20px;
     font-size: 18px;
     cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); 
+}
+
+.container ul li:hover{
+    transform: scale(1.03); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
 }
 
 .container button {
@@ -44,9 +51,60 @@
     font-weight: 500;
     border-radius: 8px;
     cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.container button:hover {
+    transform: scale(1.03); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .container .index {
     margin: auto;
     font-size: 18px;
+}
+
+.container .correct {
+    background: #dffff2;
+    border-color: #00d397;
+}
+
+.container .wrong {
+    background: #ffebeb;
+    border-color: #ff4a4a;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 60%;
+        padding: 20px;
+        margin-top: 90px;
+    }
+
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .container ul li {
+        font-size: 16px;
+        height: 50px;
+        margin-bottom: 15px;
+    }
+
+    .container button {
+        width: 230px;
+    }
+
+  .index {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
 }

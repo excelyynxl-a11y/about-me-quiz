@@ -32,11 +32,11 @@ export const data = [
         answer: 4,
     },
     {
-        question: "Which is Ex favourite day of the week?",
-        option1: "Tuesday",
-        option2: "Thursday",
-        option3: "Friday",
-        option4: "Saturday",
+        question: "Which is Ex favourite breakfast?",
+        option1: "Mayo egg sando",
+        option2: "Shashuka with sourdough",
+        option3: "Kaya toast with kopi",
+        option4: "Cream cheese bagel with americano",
         answer: 4,
     },
     {
